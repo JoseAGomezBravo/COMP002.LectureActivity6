@@ -37,9 +37,9 @@ function validNumber (input)
     return input;
 }
 
+const userInput= 89;
 try 
 {
-    const userInput = 103;
     const validatedNumber = validNumber(userInput);
     console.log("Input is valid:", validatedNumber);
 } 
